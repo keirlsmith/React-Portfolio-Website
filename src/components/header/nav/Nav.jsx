@@ -1,12 +1,20 @@
 import React from 'react';
 import './nav.css';
-import {FaHome} from 'react-icons/fa';
+import {AiOutlineHome} from 'react-icons/ai';
+import {AiOutlineUser} from 'react-icons/ai';
+import {BiBook} from 'react-icons/bi';
+import {AiOutlineCamera} from 'react-icons/ai';
+import {AiOutlineMessage} from 'react-icons/ai';
 
 
 const Nav = () => {
   return (
     <nav>
-        <a href="#"><FaHome /></a>
+        <a href="#"><AiOutlineHome /></a>
+        <a href="#about"><AiOutlineUser /></a>
+        <a href="#experience"><BiBook /></a>
+        <a href="#photography"><AiOutlineCamera /></a>
+        <a href="#contact"><AiOutlineMessage /></a>
     </nav>
   )
 }
