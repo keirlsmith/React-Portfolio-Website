@@ -1,10 +1,14 @@
-import React from 'react'
+import React from 'react';
+import './nav.css';
+import {FaHome} from 'react-icons/fa';
 
 
 const Nav = () => {
   return (
-    <div>Nav</div>
+    <nav>
+        <a href="#"><FaHome /></a>
+    </nav>
   )
 }
 
-export default Nav
+export default Nav;
