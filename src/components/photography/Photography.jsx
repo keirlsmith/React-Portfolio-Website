@@ -3,7 +3,7 @@ import './photography.css';
 
 const photography = () => {
   return (
-    <div>Photography</div>
+    <section id='photography'>Photography</section>
   )
 }
 
