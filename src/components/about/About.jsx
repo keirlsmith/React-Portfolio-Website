@@ -1,9 +1,25 @@
 import React from 'react';
 import './about.css';
+import ME2 from '../../assets/img/profilePic.jpg';
 
 const About = () => {
   return (
-    <section id='#about'>About</section>
+    <section id='about'>
+        <h5>Get To Know</h5>
+        <h2>About Me</h2>
+
+        <div className="container about__container">
+            <div className="about__me">
+                <div className="about__me-image">
+                    <img src={ME2} alt="" />
+                </div>
+            </div>
+
+            <div className="about__content">
+
+            </div>
+        </div>
+    </section>
   )
 }
 
