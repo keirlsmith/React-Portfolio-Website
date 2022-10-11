@@ -125,6 +125,12 @@ img {
     section {
         margin-top: 6rem;
     }
+
+    img {
+        display: block;
+        width: 300px;
+        object-fit: cover;
+    }
 }
 
 
@@ -136,5 +142,11 @@ img {
 
     section > h2 {
         margin-bottom: 2rem;
+    }
+
+    img {
+        display: block;
+        width: 200px;
+        object-fit: cover;
     }
 }
