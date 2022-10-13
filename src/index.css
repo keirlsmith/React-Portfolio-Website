@@ -20,6 +20,7 @@
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
     --color-bg: rgba(143, 121, 13, 0.76);
+    --color-bg-variant: rgb(90, 67, 100); 
 
     --transition: all 400ms ease;
 
