@@ -42,7 +42,8 @@ nav a.active {
 /*================MEDIA QUERIES (SMALL DEVICES)=================*/
 @media screen and (max-width: 600px) {
     nav {
-
+        left: 8%;
+        transform: translateX(-50);
         border-radius: rem;
     }
 
